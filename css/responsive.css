@@ -1,4 +1,11 @@
 @media (min-width: 544px) {
+  .steps {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .steps__section-thumbnail {
+    height: auto;
+   }
 }
 @media (min-width: 768px) {
 }

@@ -55,8 +55,7 @@ a:hover {
   background-color: var(--primary-color);
   overflow: hidden;
 }
-.hero__heading {
-}
+
 .hero_video {
   position: absolute;
   top: 50%;
@@ -110,4 +109,23 @@ a:hover {
   to {
     transform: translateY(-10px);
   }
+}
+
+/* steps Section  */
+
+.steps--background {
+  background-color: #ffffffd9;
+}
+.steps {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.steps__section-thumbnail {
+  height: 240px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.steps__content-width {
+  max-width: 456px;
+  margin: 0 auto;
 }
