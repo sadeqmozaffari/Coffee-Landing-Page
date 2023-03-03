@@ -7,26 +7,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
 
-      <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
 
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!-- Bootstrap Icons
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"> -->
 
     <!-- CSS -->
-    <link rel="stylesheet" rel="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
-<!-- Header Start -->
-<header class=""></header>
+    <!-- Header Start -->
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="/" class="text-decoration-none text-white fs-5 fw-bold">SadeqCoffee</a>
+            <div>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+
+
+    <!-- Nav Start -->
+    <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+        <div class="container-xxl d-flex align-items-start align-items-md-start">
+            <div class="row align-items-start dropdown-nav__container">
+
+                <div class="col-12 col-sm-4 mt-4 pt-sm-5">
+                    <a href="#" class="row text-decoration-none ">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="./img/1-coffe-flavour.jpg" alt="coffee flavour" class="img-fluid" width="553"
+                                height="746" loading="lazy">
+
+                        </div>
+                        <div class="col-10">
+                            <h3>Amazing Flavour</h3>
+                            <p>Find out more about out amazing flavour</p>
+                            <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-4 mt-4 pt-sm-5">
+                    <a href="#" class="row text-decoration-none ">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="./img/2-health-benefits.jpg" alt="coffee flavour" class="img-fluid" width="553"
+                                height="746" loading="lazy">
+
+                        </div>
+                        <div class="col-10">
+                            <h3>Amazing Flavour</h3>
+                            <p>Find out more about out amazing flavour</p>
+                            <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-12 col-sm-4 mt-4 pt-sm-5">
+                    <a href="#" class="row text-decoration-none ">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="./img/3-essential-nutrients.jpg" alt="coffee flavour" class="img-fluid"
+                                width="553" height="746" loading="lazy">
+
+                        </div>
+                        <div class="col-10">
+                            <h3>Amazing Flavour</h3>
+                            <p>Find out more about out amazing flavour</p>
+                            <p>Learn More <i class="bi bi-arrow-right-short"></i></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+
+        </div>
+    </nav>
+    <!-- Nav End -->
+
+
+
+    <!-- Hero section Start -->
+    <section class="hero">
+        <div class="hero__overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy"
+            class="hero_video">
+            <source src="./video/Pexels Videos 2675515.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero__content h-100 container-custom position-relative">
+            <div class="d-flex h-100 align-items-center hero__content-width">
+                <div class="text-white">
+                    <h1 class="fw-bold mb-4 hero__heading">
+                        Discover The Taste Of Real Coffee.
+                    </h1>
+                    <p class="lead mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet excepturi nisi,
+                        Rerum at mollitia soluta quod laborum illo
+                        quaerat! Possimus, earum eum.</p>
+                    <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button">
+                        Buy Now
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <a href="#scroll-down" class="hero__scroll-btn">Explore
+            <i class="bi bi-arrow-down-short"></i>
+        </a>
+    </section>
+    <a id="scroll-down"></a>
 </body>
 
-<script src="./js/main.js"></script>
+<script src="./bootstrap/bootstrap.min.js"></script>
 <script src="./js/main.js"></script>
 
 </html>
